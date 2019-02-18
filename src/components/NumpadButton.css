@@ -1,0 +1,25 @@
+.NumpadButton, .NumpadOperatorButton, .NumpadZeroButton {
+    background-color: lightgray;
+    border: 1px solid black;
+}
+  
+.NumpadButton:active, .NumpadButton:focus, .NumpadOperatorButton:active, .NumpadOperatorButton:focus, .NumpadZeroButton:active, .NumpadZeroButton:focus {
+    outline: none;
+}
+  
+.NumpadButton:active, .NumpadOperatorButton:active, .NumpadZeroButton:active {
+    background-color: darkgray;
+}
+  
+.NumpadButton, .NumpadOperatorButton {
+    width: 25%;
+}
+  
+.NumpadOperatorButton {
+    background-color: orange;
+    color: white;
+}
+  
+.NumpadZeroButton {
+    width: 50%;
+}
